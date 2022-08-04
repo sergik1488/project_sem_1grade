@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <title>Страница</title>
+     <style>
+   body {
+    background: #333;
+    color: #fc0; 
+   }
+  
+  </style>
+</head>
+<body> 
+    <font face="arialblack">
+    <div>
+        
+            
+        
+    <h1 style = "font-size : 600%", align = "center"> Черепанов Сергей Степанович</h1>
+    <h1 align = 'center'> БИВ214</h1>
+
+    <h2 align = 'center'>{{data}}</h2>
+    </div>
+    <div style = "font-size : 200%">
+        <h1 align = 'center'> GitLab </h1>
+	    <p align = 'left' > {{Git_summ}} - Общее количество коммитов в GitLab </p>
+	    <p align = 'center'> График роста числа коммитов </p>
+            <p align = 'center'> {{LinearGraphGit}} </p>
+	    <p align = 'center'> График, показывающий число коммитов по дням </p>
+            <p align = 'center'> {{BarGraphGit}} </p>
+    </div>
+    <div style = "font-size : 200%">
+        <h1 align = 'center'> Taiga </h1>
+	    <p align = 'center'> {{Amount_of_tasks}} - Количество моих задач </p>
+            <p align = 'center'> {{Amount_of_stories}} - Количество моих историй </p>
+	    <p align = 'center'> Число растущих задач: </p>
+            <p align = 'center'> {{LinearGraphTaiga}} </p>
+	    
+    </div>
+    <div style = "font-size : 200%">
+        <h1 align = 'center'> Jitsi </h1>
+	    <p align = 'right'> {{Amount_of_visited_classes}} - количество посещенных пар . </p>
+	    <p align = 'left'>  {{Jitsi_rooms}} - комнаты в которых присутствовал </p>
+	    <p align = 'center'> Линейное увеличение числа посещённых пар в 3 модуле </p>
+            <p align = 'center'> {{LinearGraphJitsi}} </p>
+            <p align = 'center'> График, показывающий посещения пар по дням </p>
+	    <p align = 'center'> {{BarGraphJitsi}} </p>
+    </div>
+    <div style = "font-size : 200%">
+        <h1 align = 'center'> Zulip </h1>
+	    <p align = 'center'> {{Count_of_messages_Zulip}} - Общее число сообщений в Zulip в 3 модуле </p>
+	    <p align = 'center'> {{Channels}} - Каналы , которые я посетил </p>
+            <p align = 'center'> Линейное увеличение числа сообщений в Zulip </p>	    
+            <p align = 'center'> {{LinearGraphZulip}} </p>
+	    <p align = 'center'> График, показывающий кол-во сообщений в Zulip по дням </p>
+            <p align = 'center'> {{BarGraphZulip}} </p>
+        <p align='center'><img src="1.jpg" width="1000"></p>
+    </div>
+        
+        </font>
+</body>
